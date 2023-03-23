@@ -1,0 +1,65 @@
+html, body, p, ol, ul, li, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+p {
+    color: var(--color-txt);
+    font-family: 'Roboto', sans-serif;
+}
+.text_h1 {
+    padding: 0px 40px 0px 40px;
+}
+h1.logo_title {
+    font-family: "Shrikhand",serif;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px,0px,0px,0px;
+}
+h1.logo_title a {
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+}
+.steps__card--body p {
+    padding-left: 7%;
+    color: #4d4d4d;
+}
+.main h2 {
+    font-family: "Roboto",Helvetica,sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    margin: 10px 10px 10px 10px;
+}
+.menu_title h2 {
+    font-family: "Shrikhand",serif;
+    font-size: 1.8rem;
+    color: #000;
+}
+.section_title h3 {
+    text-transform: uppercase;
+    font-family: "Roboto",Helvetica,sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.menu_card--body h4 {
+    font-family: "Roboto",Helvetica,sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.menu_card--body p, h4 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

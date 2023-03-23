@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    z-index: 2;
+    width: 100%;
+    padding: 5px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+h1.logo_title {
+    font-family: "Shrikhand",serif;
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+    padding-top: 10px;
+}
+.header_return{
+    padding-top: 10px;
+    position: absolute;
+    left: 0;
+}
+.header_return a {
+    font-size: 1.3rem;
+    color: #000;
+    margin-left: 20px;
+}
