@@ -1,0 +1,48 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    background-color: var(--color-bg);
+}
+.about {
+    font-weight: 300;
+    margin: 15px 10px;
+}
+.tuto {
+    background-color: #fff;
+    padding: 30px 10px 30px 10px;
+}
+.tuto h2 {
+    font-family: "Roboto",Helvetica,sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 10px 10px 10px 10px;
+}
+.tuto_step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+.restaurants_frame {
+    background-color: var(--color-bg);
+    padding: 30px 10px 30px 10px;
+}
+@media screen and (min-width: 1023px) {
+    .tuto_step {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin: 15px 10px;
+        gap: 32px;
+    }
+    .tuto {
+        padding: 0px 70px 0px 70px;
+    }
+}

@@ -1,0 +1,43 @@
+@import "./utils/_variable.css";
+@import "./composants/_load.css";
+@import "./layout/_header.css";
+@import "./composants/_location.css";
+@import "./base/_typo.css";
+@import "./composants/_button.css";
+@import "./Pages/_home.css";
+@import "./Pages/_menu.css";
+@import "./composants/_card.css";
+@import "./layout/_restaurants_frame.css";
+@import "./layout/_footer.css";
+@import "./composants/_heart.css";
+
+* {
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.page {
+    height: 100vh;
+    margin: auto;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-family: "Roboto",Helvetica,sans-serif;
+    font-size: 1rem;
+    color: #4d4d4d;
+}
+
+h1 {
+    font-family: "Roboto",Helvetica,sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    
+}
+@media screen and (min-width: 767px) {
+    
+}
