@@ -14,6 +14,14 @@
     font-weight: 700;
     font-size: 1rem ;
   }
+  .btn:hover {
+    background: linear-gradient(0deg, var(--color-primary), var(--color-secondary));
+    filter: brightness(110%);
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+  }
+  .btn:hover p {
+    filter: brightness(90%);
+  }
   .btn p {
     color: var(--white);
   }
