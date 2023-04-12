@@ -1,33 +1,33 @@
 .btn {
-    position: relative;
-    text-decoration: none;
-    width: 230px;
-    height: 50px;
-    border-radius: 50px;
-    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
-    background: linear-gradient(0deg, var(--color-primary), var(--color-secondary));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin: 15px 0 20px 0;
-    font-weight: 700;
-    font-size: 1rem ;
-  }
-  .btn:hover {
-    background: linear-gradient(0deg, var(--color-primary), var(--color-secondary));
-    filter: brightness(110%);
-    box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
-  }
-  .btn:hover p {
-    filter: brightness(90%);
-  }
-  .btn p {
-    color: var(--white);
-  }
-  .bloc_btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+  position: relative;
+  text-decoration: none;
+  width: 230px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+  background: linear-gradient(0deg, var(--color-primary), var(--color-secondary));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 15px 0 20px 0;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: opacity 0.3s ease
+}
+
+.btn:hover {
+  opacity: 0.85;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+}
+
+.btn p {
+  color: var(--white);
+}
+
+.bloc_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
